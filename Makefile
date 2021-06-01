@@ -34,7 +34,7 @@ update-force :
 	rm -f has
 
 uninstall :
-	rm -f /usr/local/bin/has
+	rm -f $(DESTDIR)$(PREFIX)/bin/has
 
 .PHONY: test install uninstall update
 
